@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 25d2fe223b33c5d429bf58da6e415c97, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1657,10 +1657,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 1822451291}
   - 20: {fileID: 1822451290}
+  - 45: {fileID: 1822451292}
   - 92: {fileID: 1822451289}
   - 124: {fileID: 1822451288}
   - 81: {fileID: 1822451287}
-  - 45: {fileID: 1822451292}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1707,7 +1707,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 40.52511
+  field of view: 47.050297
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1729,8 +1729,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1822451286}
-  m_LocalRotation: {x: 0.27350357, y: 0, z: 0, w: 0.961871}
-  m_LocalPosition: {x: -0.34, y: 19.99, z: -8.44}
+  m_LocalRotation: {x: 0.10843855, y: 0, z: 0, w: 0.9941032}
+  m_LocalPosition: {x: -1.26, y: 15.52, z: -6.27}
   m_LocalScale: {x: 1.0561959, y: 4.4646225, z: 1.056196}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1741,8 +1741,8 @@ Skybox:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1822451286}
-  m_Enabled: 1
-  m_CustomSkybox: {fileID: 0}
+  m_Enabled: 0
+  m_CustomSkybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1873993796
 GameObject:
   m_ObjectHideFlags: 0
