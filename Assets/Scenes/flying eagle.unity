@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
-  m_SkyboxMaterial: {fileID: 2100000, guid: 25d2fe223b33c5d429bf58da6e415c97, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 59fff70ff727ce84e9203ed0885e1420, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -19790,7 +19790,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 9eb301270310f1944a13fe06f1269149, type: 2}
+  - {fileID: 2100000, guid: da5088c0de3e7d1489cf9a727ceb99e6, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -29297,7 +29297,7 @@ Animator:
   m_GameObject: {fileID: 1240675469}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: bbd373f70143010419a2f08789b394c1, type: 3}
-  m_Controller: {fileID: 9100000, guid: f8d8ea9320fdf5a4a9dbc8ac5e94844a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 829bda1d7fc2d3d46b6c2eaea547239e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 1
   m_ApplyRootMotion: 0
