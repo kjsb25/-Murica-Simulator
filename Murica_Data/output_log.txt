@@ -6,23 +6,25 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.040 seconds
-Platform assembly: C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Mattyp\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\System.dll (this message is harmless)
-desktop: 2560x1600 60Hz; virtual: 4260x1600 at -1700,0
+Platform assembly: C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.045 seconds
+Platform assembly: C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Koonan\Documents\GitHub\-Murica-Simulator\Murica_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
 <RI> Initializing input.
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.036342 ms
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 3468 -> priority: 1 
