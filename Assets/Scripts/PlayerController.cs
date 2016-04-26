@@ -19,8 +19,6 @@ public class PlayerController : MonoBehaviour {
         //float moveVertical = Input.GetAxis ("Vertical");
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
-        if (movement[2] < 0)
-            movement[2] = 0;
         rb.AddForce (movement*speed);
     }
 }
