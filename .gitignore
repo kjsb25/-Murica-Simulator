@@ -245,3 +245,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.txt
