@@ -1,18 +1,28 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class LoadOnClick : MonoBehaviour {
 
     public GameObject loadingImage;
 
-    public void LoadScene(int selection)
+    public void LoadScenewithLoadingScreen(string selection)
     {
-        if (selection == 10)
-        {
-            Application.Quit();
-        }
+        Time.timeScale = 1.0f;
         loadingImage.SetActive(true);
-        Application.LoadLevel(selection);
+        SceneManager.LoadScene(selection);
+    }
+
+    public void LoadScenewithoutLoadingScreen(string selection)
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene(selection);
+    }
+
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 }
