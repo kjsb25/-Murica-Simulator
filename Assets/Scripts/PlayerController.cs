@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
     private int score;
     public Text countText;
     public Text winText;
+    public Text loseText;
 
     void Start ()
     {
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour {
         score = 0;
         countText.text = "Score: " + score.ToString();
         winText.text = "";
+        loseText.text = "";
     }
 
     void FixedUpdate ()
@@ -56,5 +58,10 @@ public class PlayerController : MonoBehaviour {
         {
             winText.text = "You Win!\n You're final score was: " + score.ToString();
         }
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        loseText.text = "You lose!\nBetter luck next time.";
     }
 }
