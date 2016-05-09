@@ -8,12 +8,14 @@ public class LoadOnClick : MonoBehaviour {
 
     public void LoadScenewithLoadingScreen(string selection)
     {
+        Time.timeScale = 1.0f;
         loadingImage.SetActive(true);
         SceneManager.LoadScene(selection);
     }
 
     public void LoadScenewithoutLoadingScreen(string selection)
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene(selection);
     }
 
