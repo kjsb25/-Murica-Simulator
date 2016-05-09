@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
@@ -6,12 +7,18 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     private Rigidbody rb;
     public float maxSpeed;
+    private int score;
+    public Text countText;
+    public Text winText;
 
     void Start ()
     {
         rb = GetComponent<Rigidbody>();
         Vector3 movement = new Vector3(0.0f, 0.0f, 20.0f);
         rb.AddForce (movement*speed);
+        score = 0;
+        countText.text = "Score: " + score.ToString();
+        winText.text = "";
     }
 
     void FixedUpdate ()
@@ -34,5 +41,17 @@ public class PlayerController : MonoBehaviour {
                 rb.velocity = new Vector3(-maxSpeed, 0.0f, 20.0f);
             }
         }
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        //gather eggs
+        if(other.gameObject.CompareTag("Pick Up"))
+        {
+            other.gameObject.SetActive(false);
+            score++;
+            countText.text = "Score: " + score.ToString();
+        }
+        
     }
 }
