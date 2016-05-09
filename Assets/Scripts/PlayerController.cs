@@ -52,9 +52,6 @@ public class PlayerController : MonoBehaviour {
             score++;
             countText.text = "Score: " + score.ToString();
         }
-        else if(other.gameObject.CompareTag("Winning"))
-        {
-            winText.text = "You Win!\n You're final score was: " + score.ToString();
-        }
+        
     }
 }
